@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.kotlinParcelize)
     alias(libs.plugins.compose)
     alias(libs.plugins.ksp)
 }
@@ -40,7 +41,6 @@ dependencies {
     api(libs.androidx.compose.ui)
     api(libs.androidx.compose.material3)
     api(libs.androidx.compose.material3.window)
-    api(libs.androidx.compose.material.icons.extended)
 
     api(libs.koin.android.compose)
     api(libs.koin.annotations)
